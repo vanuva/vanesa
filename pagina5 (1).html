@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Mi pagina5</title>
+    <style type="text/css">
+      table, tr, td {
+        border: 3px solid black;
+        text-align: center;
+      }
+      th {
+        border: 1px solid black;
+        }
+     tr:nth-child(even) {background: rgb(128, 156, 248)}
+     tr:nth-child(odd) {background: rgb(251, 198, 198)}
+    </style>
+  </head>
+  <body>
+    <h1>Tablas en HTML</h1>
+    <p>
+      <table>
+        <tr> <th>Compañia</th>   <th>Contacto</th>   <th>Pais</th></tr>
+        <tr> <td>Alfred</td>     <td>Maria</td>      <td>Alemania</td></tr>
+        <tr> <td>Moctezuma</td>  <td>Francisco</td>  <td>Mexico</td></tr>
+        <tr> <td>Mazda</td>      <td>Luis</td>       <td>Colombia</td></tr>
+      </table>
+    </p>
+
+      <p>  <h2> Otra tabla </h2>
+        <table>
+          <tr><th>nombre</th><th>telefono</th><th>ciudad</th></tr>
+          <tr><td>Maria</td><td>3234543454</td><td rowspan="2">Cali</td></tr>
+          <tr><td>Luis</td><td>3124323423</td></tr>
+          <tr><td>Rosa</td><td>321324323</td><td rowspan="2">Mocoa</td>  </tr>
+          <tr><td>Clara</td><td>3153232321</td></tr>
+
+        </table>
+      </p>
+
+      <p>
+        <h2>Expandir columna</h2>
+        <table>
+          <tr><th>fruta</th><th>Vitamina1</th><th>Vitamina2</th></tr>
+          <tr><td>naranja</td><td>C</td><td>D</td> </tr>
+          <tr><td>Mango</td><td colspan="2">C</td></tr>
+        </table>
+      </p>
+    
+  </body>
+</html>
